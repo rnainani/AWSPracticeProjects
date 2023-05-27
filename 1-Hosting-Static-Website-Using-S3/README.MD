@@ -34,3 +34,6 @@
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/abe9608a-817a-4808-8823-81cd7e065dc5)
 
+### Note - In addition to above steps, under Route 53 we can create an A record against an hosted domain (any website, like example .com etc.) & can Route its traffic to the bucket created above by selecting the "Alias to S3 website endpoint" 
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0086ded-5277-4c44-a5a2-daca91f7cfb9)
