@@ -1,59 +1,94 @@
-# Visualizing data using Amazon QuickSight & Amazon S3
+# 3-TIER Web Application Using Amazon RDS (MYSQL DB), Amazon EC2(Apache Web Server) and Amazon Route 53 (Monitoring Health Checks)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6f1d3bd0-55ab-42c4-8221-d8ade0e2ed77)
-
+## Agenda - Configure and Connect a MySQL Database Instance with a Web Server and Set up the Monitoring of the Solution
 
 ### Steps followed :
 
-1) Create an S3 bucket & upload a csv file contatining a sample dataset.
+Create the EC2 instance
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/74285b86-7938-4f9e-8425-31791e6656f8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0fb52f0-6829-462d-8ff0-e6ccda71cb6c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/601ec66a-b73a-419c-90a5-a23de2ad72e0)
+ ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1b1ddfb8-284d-4cd7-a785-c50f94ae2b6d)
 
-2) Create & upload a csv file to the same s3 bucket, which will used later by QuickSight to access the s3 bucket
+Create private key :
+ 
+Convert private key to putty :
+ 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f515da4c-489b-4a4c-9436-953d3756b896)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0778e29f-34a5-471a-aaeb-8fde485ab6c1)
+Launch Instance :
+ 
 
-3) Open QuickSight, signup & select the bucket. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/649b336c-ce3f-4dee-a7a7-99faaaa63ed8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/25a863cf-0f3f-4b5c-9797-0efae9e59a3b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07518ff8-c7fe-431d-bdae-25261883de40)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f461152e-6c4b-4433-956d-cb7d8c0a1a4f)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07b042ff-f5ef-43f3-b979-70465912e990)
+ 
+Convert private key to putty using putyygen :
+ 
+ 
 
-Amazon QuickSight will display the datasets from the sample s3 bucket : 
+Connect to the EC2 instance using putty :
+ 
+ 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e9b4d061-b78a-465f-8d6f-de83f4898f55)
+ 
 
-4) Select the dataset & create the desired visualization, by choosing the the combination of different fields
+Get the latest updates on EC2 instance :
+ 
+ 
+After the updates complete, install the PHP software :  
+ 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a4bd0cdb-d345-452f-9baa-371bf77e49da)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f66de20-abdc-43a4-8625-3386e6ecca54)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e930ae2a-ad29-4ea4-b1b1-4ec0953cef1c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cce6d2bd-5bf0-4af3-986d-5abd1886a9c5)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b384d787-fa9c-46e9-a635-237aa7d48151)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9013470f-1f51-48fa-b47e-dde44160a9ef)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/334657f6-e8a5-4c3e-94ae-b789f2481b3b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ca9fd7af-73fe-41a0-bfbf-4eb3bacee2db)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/14a6515b-03aa-4d1f-a6bb-8965d74268f0)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e6522191-1481-4ef8-ad42-6989f735516d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d4913e77-678f-4276-a177-a52d2d1bdcd3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/873c8aa9-c6b1-4679-a1c7-5d052953d0c2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/82a38b49-2e30-418b-ab17-ed711b9d5c60)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b01d390c-1b3f-4dea-84c4-065c45556f04)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0987ac78-9bff-4517-b3a0-75cb8ded1f77)
-
-Similarly, we can select another dataset to visualize the data as per the requirements 
-
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ff2adb5b-852d-488b-978a-ec9eddde40a8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9315a52d-8ab3-4f47-9d7b-4431d5f4aaac)
+Install the Apache web server :
+ 
+Start the web server :
+ 
 
 
 
 
+Test page can be seen at the public dns for ec2 showing apache installed successfully - http://ec2-3-82-153-125.compute-1.amazonaws.com/ :
+ 
+
+Set file permissions for the Apache web server
+1.	Add the ec2-user user to the apache group: 
+
+ 
+Log out to refresh your permissions and include the new apache group
+Exit
+Log back in again and verify that the apache group exists :
+ 
+Change the group ownership of the /var/www directory and its contents to the apache group :
+ 
+
+Change the directory permissions of /var/www and its subdirectories to add group write permissions and set the group ID on subdirectories created in the future :
+ 
+Recursively change the permissions for files in the /var/www directory and its subdirectories to add group write permissions :
+ 
+Connecting Apache web server to DB instance
+1.	change the directory to /var/www and create a new subdirectory named inc
+ 
+2.	Create a new file in the inc directory named dbinfo.inc, and then edit the file by calling nano (or the editor of your choice).
+>dbinfo.inc
+nano dbinfo.inc
+ 
+ 
+Change the directory to /var/www/html.
+create a new file in the html directory named SamplePage.php, and then edit the file : 
+ 
+Adding contents to the SamplePage.php file:
+ 
 
 
 
+
+
+
+
+Create db instance & connect with ec2 instance :
+ 
+ 
+ 
+ 
+
+Install the MySQL : 
+ 
+ 
+ 
+
+Setup & Monitor the health check for the endpoint (http://ec2-3-82-153-125.compute-1.amazonaws.com/SamplePage.php) using Route 53 : 
