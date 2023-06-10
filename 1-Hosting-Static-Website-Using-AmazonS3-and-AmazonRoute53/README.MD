@@ -1,4 +1,4 @@
-# Hosting a Static Website Using S3
+# Hosting a Static Website Using Amazon S3 (and Amazon Route 53)
 
 ## Agenda : To host a very basic static webiste using S3 bucket
 
