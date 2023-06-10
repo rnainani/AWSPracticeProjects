@@ -5,7 +5,7 @@
 ### Steps followed :
 
 Create the EC2 instance
- ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1b1ddfb8-284d-4cd7-a785-c50f94ae2b6d)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1b1ddfb8-284d-4cd7-a785-c50f94ae2b6d)
 
 Create private key :
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f8f78ecb-9407-4b9a-9742-6a3ffa8caa16)
