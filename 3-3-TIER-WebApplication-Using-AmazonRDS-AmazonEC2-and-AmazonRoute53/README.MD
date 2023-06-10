@@ -2,7 +2,17 @@
 
 ## Agenda - Configure and Connect a MySQL Database Instance with a Web Server and Set up the Monitoring of the Solution
 
-### Steps followed :
+### Steps followed at a high level: 
+
+1. Create the Database in the AWS Console
+2. Launch an EC2 Instance
+3. Convert a Private Key to PuTTY using PuTTYgen
+4. Install an Apache Web Server with PHP
+5. Set File Permissions for the Apache Web Server
+6. Connect your Apache Web Server to Your Database Instance
+7. Monitor the Portal Using Route 53
+
+### Detailed Steps with screenshots :
 
 Create the EC2 instance
 
