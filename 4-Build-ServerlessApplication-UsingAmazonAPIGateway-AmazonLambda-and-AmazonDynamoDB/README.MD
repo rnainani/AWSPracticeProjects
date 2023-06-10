@@ -1,39 +1,68 @@
-# Hosting a Static Website Using Amazon S3 (and Amazon Route 53)
+# Build a Serverless application using Amazon API Gateway, Amazon Lambda & Amazon DynamoDB 
 
-## Agenda : To host a very basic static webiste using S3 bucket
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/553bf8e6-3165-4d02-aa42-0573e3da91c2)
+
+Create an API, hosted on API Gateway, with backen on Lambda, & database on DynamoDB. 4 Operations done on microservices :
+
+1) Insert some data
+2) Read that data
+3) Update that data
+4) Delete that data
+
+Create a resource (DynamoDBManager) and define a method (POST) on it. The method is backed by a Lambda function (LambdaFunctionOverHttps). That is, when you call the API through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
+
+The method on the DynamoDBManager resource will support DynamoDB operations. The request payload sent in the POST request identifies the DynamoDB operation and provides necessary data.
 
 ### Steps followed :
 
-1) Create an S3 bucket & upload the index.html & error.html file to it.
+1) Create Lambda IAM Role. Create the execution role that gives the function permission to access AWS resources.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ecaa8332-b388-43fa-9442-606ce469d196)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/028155e8-ad27-4962-a9e7-be113f6d333e)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3e2c07fd-38b9-4bc0-b564-b2b006aef980)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cefe5e90-c187-42f5-b968-a841510990e2)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1d3826fe-912d-4266-8eec-4c6062f36260)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7b445e93-9b3e-419c-88d7-325e499086d3)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0bde0558-d053-457c-b54e-7c4c770e4558)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ffb4a048-1a66-4c7a-9886-e9ea8fc54ddc)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77218933-2cf3-4bdc-bcaf-f7ab5db5eb89)
+2) Create Lambda Function & add the code 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6452b9cf-5478-456c-afcc-5c85ecdd78d7)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d6a2a530-0b64-4c5b-a3d6-119f1fd58bb6)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/bc5d6a97-2f1f-4a43-a46b-d6638c729cf1)
 
-2) For the bucket, go to properties, make sure static website hosting is enabled & provide the index & error document uploaded above.
+3) Test Lambda Function
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/61137559-7867-4292-9aa6-b9f497119757)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6c3158fd-f531-4b81-8168-a62790c68e0d)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/52b06785-2661-417c-a6ab-fba7911f1af1)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9283b34f-0bda-4940-a101-a9240600d9f4)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cd156a50-6779-4887-94cf-2fcd8bfd39da)
+4) Create DynamoDB Table
 
-3) Go to permissions & make the block public access Off.
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3e92e3d0-41ed-4650-be21-fb379b7689c1)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/78ca05ca-81cf-45e2-8a11-a666e15c8726)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e3a3e901-9541-44cb-82a2-c02df20b11d1)
+5) Create API
 
-4) Again inside permissions, edit bucket policy & add bucket persmission in JSON to make the bucket public.
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/bdea4730-b749-4ca4-870d-d8a969647232)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1a020542-0ac4-4017-a765-dc7a5a8389f9)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/deeb2c8b-9009-4efe-a84a-c685ed354e51)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8e10a2e5-dde9-47c6-90bf-5b99968bd729)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f77a805a-c33d-4b4d-8312-50c7a350b9f7)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8c28aaeb-d255-494b-a4e6-8ddd14ba0056)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2b7fc9b6-200d-4246-92f3-bfed579dbb3c)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/487a2809-03f6-4997-9158-65df12ef4266)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9964539c-49fc-4240-8dfe-3bed5c6caa19)
 
-5) Under properties, go to static website hostic section & grab the bucket website hosting endpoint url & paste it in browser 
+With above step API integration is done.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c3725ab4-7006-4a2a-ba99-196ae03b87a4)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2008b40-1b75-4879-a012-70940169b93c)
+6) Deploy the API
 
-6) Add some invalid character in the url to test for the error page
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6cb4402f-78ad-4284-8552-a5dc299996dc)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/567d6171-2759-4fdd-9f4b-8da7af10bd00)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6a409966-435c-41e2-a37a-fc1802afa8fd)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/abe9608a-817a-4808-8823-81cd7e065dc5)
+### Running our solution
 
-### Note - In addition to above steps, under Route 53 we can create an A record against an hosted domain (any website, like example .com etc.) & can Route its traffic to the bucket created above by selecting the "Alias to S3 website endpoint" 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0086ded-5277-4c44-a5a2-daca91f7cfb9)
+
+
+
