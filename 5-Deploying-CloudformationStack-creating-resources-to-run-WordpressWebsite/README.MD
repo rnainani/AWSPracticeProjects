@@ -475,3 +475,19 @@ Paste the following code into the document.  Note that this code includes right-
 Save your document.
 
 You now have a JSON document containing a CloudFormation template. Move on to the next challenge where you will create a stack in AWS and test the template.
+
+2) Open CloudFormation & create a new stack using the file created in last step 
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/006e6be2-c39d-423c-885e-93091c056c57)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/01d78cf3-548e-4992-8584-b1b30c814dcb)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0f72d3f3-1d11-4577-9703-28f4968c5374)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6035dd41-2d8c-4fb3-991c-863c1eaebd24)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/98e45e0d-64bf-44ac-be49-87fb446e79cd)
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6651518c-f23c-4dce-8ca2-40f816c921ca)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1432a87f-af74-4603-8bb0-ca1564706adf)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8f519bbc-9f3b-4aaa-8686-5641bb5069a3)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/060b49b3-8d96-49a4-a936-643570495b38)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f864186-2457-414f-b7e2-a094556fac19)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42115f96-0161-4cce-b6ec-653a330a7ac2)
+
