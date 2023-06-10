@@ -488,6 +488,25 @@ You now have a JSON document containing a CloudFormation template. Move on to th
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1432a87f-af74-4603-8bb0-ca1564706adf)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8f519bbc-9f3b-4aaa-8686-5641bb5069a3)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/060b49b3-8d96-49a4-a936-643570495b38)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b50ac805-62af-467a-ab4c-ce3679627bfb)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4402738f-21ad-45cf-90e0-da5fc47ffd4c)
+
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f864186-2457-414f-b7e2-a094556fac19)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42115f96-0161-4cce-b6ec-653a330a7ac2)
+
+3) Install Wordpress
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3c45f5d5-c399-4421-a1d5-10f2f707b881)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15959b9d-6c77-4f85-97a0-6f5cc1bd0ba7)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/94e4f4fa-87ae-4203-84cd-ed592ac09ecb)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7a79f108-818e-4428-81e4-748d5b096fc0)
+
+4) Delete the CloudFormation Stack
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cedc64e5-7e05-4820-bb0d-0100a6f7275e)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/11ebefc2-4b32-459e-bf98-aa6b6f1cfdf4)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/aa70a8d7-cb33-4727-82b4-15a0d3c6bf93)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2d79b23-cc5c-4894-800b-88726702ef68)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dadaa9ed-e108-46d6-aa39-b600ff695972)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/45d3122a-dd6c-4b5b-9940-10f69aaff3f3)
 
