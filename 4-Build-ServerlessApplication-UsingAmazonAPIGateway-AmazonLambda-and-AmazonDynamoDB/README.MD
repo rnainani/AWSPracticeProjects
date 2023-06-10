@@ -62,6 +62,8 @@ With above step API integration is done.
 
 ### Running our solution
 
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/13f3314a-4b0a-4de9-9792-2a21537dae68)
+
 
 
 
