@@ -34,21 +34,22 @@ Connect to the EC2 instance using putty :
 
 Get the latest updates on EC2 instance :
  
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1a94cd4b-0936-4bb0-8c17-401650466b44)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7e2abdbd-9526-4c58-9c33-e552c8e5cae0)
  
 After the updates complete, install the PHP software :  
  
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42c0df61-27b0-47ea-b44c-919a37a68c8d)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4766ef80-7d32-47f9-a224-b0dff9d99357)
 
 Install the Apache web server :
- 
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/756a3872-6852-49de-8d86-2dfbc7465e21)
+
 Start the web server :
- 
-
-
-
-
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/23997beb-7b2f-43f0-b3ff-4cc22c139098)
 Test page can be seen at the public dns for ec2 showing apache installed successfully - http://ec2-3-82-153-125.compute-1.amazonaws.com/ :
- 
-
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/373b46fe-cc61-4f1e-b596-0f9c370f71d1)
 Set file permissions for the Apache web server
 1.	Add the ec2-user user to the apache group: 
 
