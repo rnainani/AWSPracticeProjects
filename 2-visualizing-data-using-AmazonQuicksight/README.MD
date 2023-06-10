@@ -16,13 +16,16 @@
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f515da4c-489b-4a4c-9436-953d3756b896)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0778e29f-34a5-471a-aaeb-8fde485ab6c1)
 
-3) Open QuickSight, signup & select the bucket
+3) Open QuickSight, signup & select the bucket. 
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/649b336c-ce3f-4dee-a7a7-99faaaa63ed8)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/25a863cf-0f3f-4b5c-9797-0efae9e59a3b)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07518ff8-c7fe-431d-bdae-25261883de40)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f461152e-6c4b-4433-956d-cb7d8c0a1a4f)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07b042ff-f5ef-43f3-b979-70465912e990)
+
+Amazon QuickSight will display the datasets from the sample s3 bucket : 
+
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e9b4d061-b78a-465f-8d6f-de83f4898f55)
 
 4) Select the dataset & create the desired visualization, by choosing the the combination of different fields
