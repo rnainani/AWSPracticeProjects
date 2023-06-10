@@ -1,10 +1,12 @@
 # Deploy a Cloudformation stack that creates the resources needed to run a stand-alone Wordpress website
 
-### Steps followed :
+## Steps followed :
 
-1. Open a text or code editor on your local system and create a plain-text file named wordpress_cloudformation_template.json. This document will hold the CloudFormation template in JSON format.  While creating the document, pay special attention to punctuation including commas, colons, quotes, and brackets.
+### 1. Create CloudFormation template in JSON format
 
-You'll begin the document by entering a left bracket, the template format version, and the template description. Paste the following code into the document:
+Open a text or code editor and create a plain-text file named wordpress_cloudformation_template.json. This document will hold the CloudFormation template in JSON format.
+
+Document will begin by entering a left bracket, the template format version, and the template description. 
 
 {
 
@@ -12,15 +14,15 @@ You'll begin the document by entering a left bracket, the template format versio
 
  "Description" : "CloudFormation Template for a Stand Alone Wordpress Site",
 
-Next, you'll continue the document by adding the parameters.  Particularly, this template will need parameters for:
 
-An SSH key that developers can user to connect to their server.
+Next, add the parameters to the document. Parameters will be added for:
 
-The type of instance they need to run, including a default selection of “t2.small.”
+- An SSH key that developers can user to connect to their server.
 
-A name, password, username, and root password for the MySQL database that will be installed on the server.  Defaults need to be included for these as well.
+- The type of instance they need to run, including a default selection of “t2.small.”
 
-Paste the following code into the document, on the line immediately following the previous entry:
+- A name, password, username, and root password for the MySQL database that will be installed on the server.  Defaults need to be included for these as well.
+
 
   "Parameters" : {
 
@@ -122,9 +124,8 @@ Paste the following code into the document, on the line immediately following th
 
   },
 
-With the parameters in place, you'll now add a mappings section that will allow the template to dynamically select the correct AMI when creating an EC2 instance.  The mapping should be based on the  instance type and the region where the stack is being created.  
+With the parameters in place, now add a mappings section that will allow the template to dynamically select the correct AMI when creating an EC2 instance. The mapping should be based on the instance type and the region where the stack is being created :
 
-Paste the following code into your document, again after the previously entered code:
 
   "Mappings" : {
 
@@ -148,9 +149,8 @@ Paste the following code into your document, again after the previously entered 
 
    },
 
-After the mappings section you'll next add a section for resources.  Your template needs to include resources for an EC2 Instance and Security Group.  The Security Group needs to allow SSH access on port 22 and HTTP access on port 80.  
+After the mappings section, next add a section for resources. Template needs to include resources for an EC2 Instance and Security Group. The Security Group needs to allow SSH access on port 22 and HTTP access on port 80.  
 
-Paste the following code into your document:
 
       "Resources" : {
 
@@ -174,17 +174,17 @@ Paste the following code into your document:
 
     },
 
+
 Next is a resource for an EC2 Instance.  This resource will configure all aspects of the server, including:
 
-Setting instance properties like SSH key and security group.
+- Setting instance properties like SSH key and security group.
 
-Installing PHP, Apache, and MySQL.
+- Installing PHP, Apache, and MySQL.
 
-Creating a database for the Wordpress site using the parameters passed into the template.
+- Creating a database for the Wordpress site using the parameters passed into the template.
 
-Installing Wordpress and configuring it to use the database.
+- Installing Wordpress and configuring it to use the database.
 
-Paste the following code into your document:
 
    "WebServer": {
 
@@ -454,9 +454,8 @@ Paste the following code into your document:
 
   },
 
-The final section of the template is used to generate outputs using references to the resources that were created.  You'll use the PublicDNS property of the WebServer resource to add an output that prints a URL for the Wordpress website.
+The final section of the template is used to generate outputs using references to the resources that were created.  The PublicDNS property of the WebServer resource will be used to add an output that prints a URL for the Wordpress website:
 
-Paste the following code into the document.  Note that this code includes right-side curly brackets that close the Resource section as well as the left-side curly bracket that opened the JSON document:
 
   "Outputs" : {
 
@@ -472,11 +471,10 @@ Paste the following code into the document.  Note that this code includes right-
 
 }
 
-Save your document.
+Save the document. Now we've a JSON document containing a CloudFormation template. 
 
-You now have a JSON document containing a CloudFormation template. Move on to the next challenge where you will create a stack in AWS and test the template.
 
-2) Open CloudFormation & create a new stack using the file created in last step 
+### 2) Open CloudFormation & create a new stack using the file created in last step 
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/006e6be2-c39d-423c-885e-93091c056c57)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/01d78cf3-548e-4992-8584-b1b30c814dcb)
@@ -494,14 +492,14 @@ You now have a JSON document containing a CloudFormation template. Move on to th
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f864186-2457-414f-b7e2-a094556fac19)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42115f96-0161-4cce-b6ec-653a330a7ac2)
 
-3) Install Wordpress
+### 3) Install Wordpress
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3c45f5d5-c399-4421-a1d5-10f2f707b881)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15959b9d-6c77-4f85-97a0-6f5cc1bd0ba7)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/94e4f4fa-87ae-4203-84cd-ed592ac09ecb)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7a79f108-818e-4428-81e4-748d5b096fc0)
 
-4) Delete the CloudFormation Stack
+### 4) Delete the CloudFormation Stack
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cedc64e5-7e05-4820-bb0d-0100a6f7275e)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/11ebefc2-4b32-459e-bf98-aa6b6f1cfdf4)
@@ -509,4 +507,3 @@ You now have a JSON document containing a CloudFormation template. Move on to th
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2d79b23-cc5c-4894-800b-88726702ef68)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dadaa9ed-e108-46d6-aa39-b600ff695972)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/45d3122a-dd6c-4b5b-9940-10f69aaff3f3)
-
