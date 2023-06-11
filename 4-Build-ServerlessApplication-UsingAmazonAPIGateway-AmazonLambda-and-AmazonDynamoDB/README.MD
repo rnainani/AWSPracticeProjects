@@ -60,10 +60,55 @@ With above step API integration is done.
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/567d6171-2759-4fdd-9f4b-8da7af10bd00)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6a409966-435c-41e2-a37a-fc1802afa8fd)
 
-### Running our solution
+### Running our solution - using Postman
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/13f3314a-4b0a-4de9-9792-2a21537dae68)
+The Lambda function supports using the create operation to create an item in your DynamoDB table. To request this operation, use the following JSON:
 
+```json
+{
+    "operation": "create",
+    "tableName": "lambda-apigateway",
+    "payload": {
+        "Item": {
+            "id": "1234ABCD",
+            "number": 5
+        }
+    }
+}
+```
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6aa27a16-00f4-425f-9ff9-439165367c3c)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0ff80a1c-029e-42d3-b012-e04c6c83f5f6)
+
+To get all the inserted items from the table, we can use the "list" operation of Lambda using the same API. Pass the following JSON to the API, and it will return all the items from the Dynamo table
+
+```json
+{
+    "operation": "list",
+    "tableName": "lambda-apigateway",
+    "payload": {
+    }
+}
+```
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dbba6eff-9314-49b3-8358-109c9915330e)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d41ec4cf-687c-4ccd-8aae-ac6a35301fd8)
+
+### Cleanup
+
+1) Dynamo DB
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1eb83fd7-8cd0-42d0-aa7f-1cc646c325b9)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/eeb92673-dd4e-43f5-9db5-e26f687cf506)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/00fbdda2-c998-47a5-a8b4-8f29ffb64c43)
+
+2) Lambda
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/387a6aeb-fb6f-4ef5-952c-b2dabb6a2821)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/12e864b1-e8bf-42e0-b420-dd37dec2122a)
+
+3) API Gateway
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c9359514-80cf-4963-94e5-7e35350c3e74)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/097dec33-ac53-44c4-b8c0-b472392a77bb)
 
 
 
