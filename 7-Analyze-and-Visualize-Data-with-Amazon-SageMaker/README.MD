@@ -1,39 +1,46 @@
-# Hosting a Static Website Using Amazon S3 (and Amazon Route 53)
+# Analyze and Visualize Data with Amazon SageMaker
 
-## Agenda : To host a very basic static webiste using S3 bucket
+## Steps followed :
 
-### Steps followed :
+# 1) Create and Name a Jupyter Notebook
 
-1) Create an S3 bucket & upload the index.html & error.html file to it.
+Task is to analyze and visualize sample housing data within the Ames Housing Dataset, by leveraging the Amazon SageMaker service. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ecaa8332-b388-43fa-9442-606ce469d196)
+At the Amazon SageMaker Dashboard, in the left-hand menu under Notebook, click Notebook instances.
+At the Notebook instances page, click the  HousesPricesDataAnalysisInstance link. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77218933-2cf3-4bdc-bcaf-f7ab5db5eb89)
+On the HousesPricesDataAnalysisInstance instance page, in the top-right click on the Open Jupyter button, which will open a new tab in your browser.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6452b9cf-5478-456c-afcc-5c85ecdd78d7)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/04d57a8b-03af-4926-b61f-93ceeb9b7fe2)
 
-2) For the bucket, go to properties, make sure static website hosting is enabled & provide the index & error document uploaded above.
+After clicking Open Jupyter, you should now be in the Jupyter notebook web interface. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/61137559-7867-4292-9aa6-b9f497119757)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8bcbbd07-751e-48d1-97f9-76fa5965239a)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cd156a50-6779-4887-94cf-2fcd8bfd39da)
+directory named lab_aws_analyze-and-visualize-data-with-amazon-sagemaker, contains the Ames Housing Dataset CSV.
 
-3) Go to permissions & make the block public access Off.
+Check the box next to the lab_aws_analyze-and-visualize-data-with-amazon-sagemaker directory, and then click the Rename button. Rename the directory to data, and then click the Rename button.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e3a3e901-9541-44cb-82a2-c02df20b11d1)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/04c684f9-b90a-44b6-b118-65c2da698e6d)
 
-4) Again inside permissions, edit bucket policy & add bucket persmission in JSON to make the bucket public.
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/bdea4730-b749-4ca4-870d-d8a969647232)
+Near the top-right, click the New button and from the drop-down click the conda_python3 option.
 
-5) Under properties, go to static website hostic section & grab the bucket website hosting endpoint url & paste it in browser 
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/902b002f-b382-4d75-9b2c-a095bdf3f495)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c3725ab4-7006-4a2a-ba99-196ae03b87a4)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2008b40-1b75-4879-a012-70940169b93c)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/926d27ae-bb65-4eb8-ae3e-7edbc2e22724)
 
-6) Add some invalid character in the url to test for the error page
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/da777d01-a22b-4bba-9685-b7fb1cb817f3)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/abe9608a-817a-4808-8823-81cd7e065dc5)
+# 2) Analyze Data with Amazon SageMaker
 
-### Note - In addition to above steps, under Route 53 we can create an A record against an hosted domain (any website, like example .com etc.) & can Route its traffic to the bucket created above by selecting the "Alias to S3 website endpoint" 
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/57192eda-9c31-43f6-8891-f9f1f4bae6cd)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2c8a9e40-2424-4126-8e97-aa8912a8f629)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d107c4c7-6313-4bce-8320-cc6045340fb3)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a70b3d0a-35b1-4d3c-8a55-fcd38c0d5f57)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0086ded-5277-4c44-a5a2-daca91f7cfb9)
+# 3) Visualize Data with Amazon SageMaker
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c99e1181-1b44-44f2-a078-3d10524b2bf2)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/189391da-ea7a-41a7-baee-8bd327ccd5fc)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/383faba0-0a8a-4caa-b862-294cc9f0577d)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2fa70e34-5744-491e-8f38-82af5163e1e1)
