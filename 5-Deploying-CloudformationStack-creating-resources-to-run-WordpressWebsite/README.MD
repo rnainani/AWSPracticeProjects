@@ -7,12 +7,12 @@
 Open a text or code editor and create a plain-text file named wordpress_cloudformation_template.json. This document will hold the CloudFormation template in JSON format.
 
 Document will begin by entering a left bracket, the template format version, and the template description. 
-
+```json
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
  "Description" : "CloudFormation Template for a Stand Alone Wordpress Site",
-
+```
 
 Next, add the parameters to the document. Parameters will be added for:
 
@@ -22,7 +22,7 @@ Next, add the parameters to the document. Parameters will be added for:
 
 - A name, password, username, and root password for the MySQL database that will be installed on the server.  Defaults need to be included for these as well.
 
-
+```json
   "Parameters" : {
     "KeyName": {
       "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instances",
@@ -78,10 +78,11 @@ Next, add the parameters to the document. Parameters will be added for:
       "ConstraintDescription" : "must contain only alphanumeric characters."
     }
   },
+```
 
 With the parameters in place, now add a mappings section that will allow the template to dynamically select the correct AMI when creating an EC2 instance. The mapping should be based on the instance type and the region where the stack is being created :
 
-
+```json
   "Mappings" : {
     "AWSInstanceType2Arch" : {
       "t2.small" : { "Arch" : "HVM64"  }
@@ -93,10 +94,11 @@ With the parameters in place, now add a mappings section that will allow the tem
             "us-west-2" : {"HVM64" : "ami-01fee56b22f308154"}
           }
    },
+```
 
 After the mappings section, next add a section for resources. Template needs to include resources for an EC2 Instance and Security Group. The Security Group needs to allow SSH access on port 22 and HTTP access on port 80.  
 
-
+```json
       "Resources" : {
 "WebServerSecurityGroup" : {
       "Type" : "AWS::EC2::SecurityGroup",
@@ -108,7 +110,7 @@ After the mappings section, next add a section for resources. Template needs to 
         ]
       }
     },
-
+```
 
 Next is a resource for an EC2 Instance.  This resource will configure all aspects of the server, including:
 
@@ -120,7 +122,7 @@ Next is a resource for an EC2 Instance.  This resource will configure all aspect
 
 - Installing Wordpress and configuring it to use the database.
 
-
+```json
    "WebServer": {
       "Type" : "AWS::EC2::Instance",
       "Metadata" : {
@@ -270,10 +272,11 @@ Next is a resource for an EC2 Instance.  This resource will configure all aspect
      }
     }
   },
+```
 
 The final section of the template is used to generate outputs using references to the resources that were created.  The PublicDNS property of the WebServer resource will be used to add an output that prints a URL for the Wordpress website:
 
-
+```json
   "Outputs" : {
     "WebsiteURL" : {
       "Value" : { "Fn::Join" : ["", ["http://", { "Fn::GetAtt" : [ "WebServer", "PublicDnsName" ]}, "/wordpress" ]]},
@@ -281,6 +284,7 @@ The final section of the template is used to generate outputs using references t
     }
   }
 }
+```
 
 Save the document. Now we've a JSON document containing a CloudFormation template. 
 
