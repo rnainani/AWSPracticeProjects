@@ -1,6 +1,9 @@
 # Provisioning a Custom VPC with a public and a private subnet, with NAT Gateway, Security Groups, NACL, RouteTable & Internet Gateway
 
-## Agenda
+## Agenda - To download the security updates / patches in th DB Server in private subnet using NAT gateway
+
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3efeceff-d603-4b55-b14a-011deb4c722f)
+
 
 ### Steps followed 
 
@@ -98,4 +101,8 @@ create a key & use it to SSH to the DB Server :
 
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dc0f6790-7cbd-4781-a888-e710c43456f8)
 ![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f5bc8f24-805d-41b2-bebf-df0d099bd49f)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0cf84724-5f9a-4246-a39b-15aba5e563ba)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b8aeadae-d46a-4869-a897-23a68d2b86fb)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cfb29f44-20d3-4e34-aaa8-ec224705b3fd)
+![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c06ee1b9-d2b6-42be-8612-18468dd5f3d3)
 
