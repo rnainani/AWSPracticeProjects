@@ -6,11 +6,11 @@
 
 1) Create an S3 bucket & upload the index.html & error.html file to it.
 
-![image1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ecaa8332-b388-43fa-9442-606ce469d196)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/591fcea4-b2d0-4f29-9e50-826819132832)
 
-![image2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77218933-2cf3-4bdc-bcaf-f7ab5db5eb89)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2b834136-b7a4-4ea8-9a93-8b2ada3979fa)
 
-![image3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6452b9cf-5478-456c-afcc-5c85ecdd78d7)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b5c28c30-cfa9-4d1b-a045-f1e9de75f348)
 
 2) For the bucket, go to properties, make sure static website hosting is enabled & provide the index & error document uploaded above.
 
