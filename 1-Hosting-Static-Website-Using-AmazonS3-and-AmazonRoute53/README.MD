@@ -14,26 +14,26 @@
 
 2) For the bucket, go to properties, make sure static website hosting is enabled & provide the index & error document uploaded above.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/61137559-7867-4292-9aa6-b9f497119757)
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/19503984-7271-45d1-8576-4b14b72511fb)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cd156a50-6779-4887-94cf-2fcd8bfd39da)
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6c04aeaf-b91c-45a3-956a-d5043564abb8)
 
 3) Go to permissions & make the block public access Off.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e3a3e901-9541-44cb-82a2-c02df20b11d1)
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5c3e4cf2-ebbd-4563-a1b7-148f32ded54b)
 
 4) Again inside permissions, edit bucket policy & add bucket persmission in JSON to make the bucket public.
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/bdea4730-b749-4ca4-870d-d8a969647232)
+![7](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2c7c38d7-1fc1-4c1b-988a-4380741c227c)
 
 5) Under properties, go to static website hostic section & grab the bucket website hosting endpoint url & paste it in browser 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c3725ab4-7006-4a2a-ba99-196ae03b87a4)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2008b40-1b75-4879-a012-70940169b93c)
+![8](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d168b5e9-e793-46bb-b073-02b4d8cf6214)
+![9](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8e59b21c-7ffa-4352-80ee-7b9fc7622172)
 
 6) Add some invalid character in the url to test for the error page
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/abe9608a-817a-4808-8823-81cd7e065dc5)
+![10](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9948551e-7958-4bad-ac52-7a7e094bb4ba)
 
 ### Note - In addition to above steps, under Route 53 we can create an A record against an hosted domain (any website, like example .com etc.) & can Route its traffic to the bucket created above by selecting the "Alias to S3 website endpoint" 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0086ded-5277-4c44-a5a2-daca91f7cfb9)
+![11](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2e68848e-04d5-4ed1-9162-b5731e4dcb77)
