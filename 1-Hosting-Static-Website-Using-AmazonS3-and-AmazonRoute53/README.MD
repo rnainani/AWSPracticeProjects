@@ -7,7 +7,7 @@
 1) Create an S3 bucket & upload the index.html & error.html file to it.
 
 ![image1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ecaa8332-b388-43fa-9442-606ce469d196)
-
+![241382419-ecaa8332-b388-43fa-9442-606ce469d196](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07093b93-7638-4ece-9422-ebc9cf804217)
 ![image2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77218933-2cf3-4bdc-bcaf-f7ab5db5eb89)
 
 ![image3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6452b9cf-5478-456c-afcc-5c85ecdd78d7)
