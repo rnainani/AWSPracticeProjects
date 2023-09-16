@@ -1,55 +1,55 @@
 # Visualizing data using Amazon QuickSight & Amazon S3
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6f1d3bd0-55ab-42c4-8221-d8ade0e2ed77)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/03b31d2c-dfcf-4c88-9d7e-c5c8aaba75d8)
 
 
 ### Steps followed :
 
 1) Create an S3 bucket & upload a csv file contatining a sample dataset.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/74285b86-7938-4f9e-8425-31791e6656f8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0fb52f0-6829-462d-8ff0-e6ccda71cb6c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/601ec66a-b73a-419c-90a5-a23de2ad72e0)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/76984867-d733-4838-ac2d-02169437b0fb)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1633b78f-c1e1-420e-a7d3-581ee4d1611d)
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/35eafd12-befa-42ac-84c6-3dd983e0f784)
 
 2) Create & upload a csv file to the same s3 bucket, which will used later by QuickSight to access the s3 bucket
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f515da4c-489b-4a4c-9436-953d3756b896)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0778e29f-34a5-471a-aaeb-8fde485ab6c1)
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3226e7ce-b2ee-45b8-9264-f34b9f8110e8)
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d1aeee2a-721f-44ff-82e2-ba3c3ea30b97)
 
 3) Open QuickSight, signup & select the bucket. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/649b336c-ce3f-4dee-a7a7-99faaaa63ed8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/25a863cf-0f3f-4b5c-9797-0efae9e59a3b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07518ff8-c7fe-431d-bdae-25261883de40)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f461152e-6c4b-4433-956d-cb7d8c0a1a4f)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/07b042ff-f5ef-43f3-b979-70465912e990)
+![7](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/890c570f-8d1b-4bfa-9fd4-b62fd2313f27)
+![8](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15653614-74f0-4b20-a5bf-c23d0bb06d21)
+![9](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b3c346c7-61a1-4031-b81a-c289e0d8252b)
+![10](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e59da5c3-4c40-4861-b2c5-f948326c76b5)
+![11](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2a5e2504-2ded-4a33-ab50-a8bc109b9045)
 
 Amazon QuickSight will display the datasets from the sample s3 bucket : 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e9b4d061-b78a-465f-8d6f-de83f4898f55)
+![12](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3432eb5f-d69c-4c67-8f73-4f5f807213b9)
 
 4) Select the dataset & create the desired visualization, by choosing the the combination of different fields
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a4bd0cdb-d345-452f-9baa-371bf77e49da)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f66de20-abdc-43a4-8625-3386e6ecca54)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e930ae2a-ad29-4ea4-b1b1-4ec0953cef1c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cce6d2bd-5bf0-4af3-986d-5abd1886a9c5)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b384d787-fa9c-46e9-a635-237aa7d48151)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9013470f-1f51-48fa-b47e-dde44160a9ef)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/334657f6-e8a5-4c3e-94ae-b789f2481b3b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ca9fd7af-73fe-41a0-bfbf-4eb3bacee2db)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/14a6515b-03aa-4d1f-a6bb-8965d74268f0)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e6522191-1481-4ef8-ad42-6989f735516d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d4913e77-678f-4276-a177-a52d2d1bdcd3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/873c8aa9-c6b1-4679-a1c7-5d052953d0c2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/82a38b49-2e30-418b-ab17-ed711b9d5c60)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b01d390c-1b3f-4dea-84c4-065c45556f04)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0987ac78-9bff-4517-b3a0-75cb8ded1f77)
+![13](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ce10389e-cefb-4169-af72-e196e9d495ba)
+![14](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/22202123-f7f6-4c0d-ba13-18f785d66fee)
+![15](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cd467d7f-1203-4e62-89b4-a0c24b96ee60)
+![16](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7ece99d5-14d9-48e4-91ce-a31310421edf)
+![17](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a92da7fb-0cc3-46ef-a363-c5925e04f59d)
+![18](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0ac5ace5-ab6c-4c03-b770-196d9a1e32a8)
+![19](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42c98f29-5354-406c-b2ce-7bc2e6db194d)
+![20](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ae311bd4-b7cb-48c5-981e-91a45af7a005)
+![21](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/63205a3d-aae2-4cb5-b9bd-4ae6ca486fa8)
+![22](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ae9435f7-8c43-4d75-a213-1aac9c49f2f5)
+![23](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b548f044-4c41-47de-b20a-1482584a5853)
+![24](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c4b4c8c8-2e1b-41dc-8db8-98cf71c94a42)
+![25](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/55d8003f-cb33-43e6-b223-e0d2bd9cbcca)
+![26](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/aabd7715-825a-4c9b-9509-a26c9ae99c4f)
+![27](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/46cf60f6-fc9c-477d-a942-db3f3d1cd11c)
 
 Similarly, we can select another dataset to visualize the data as per the requirements 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ff2adb5b-852d-488b-978a-ec9eddde40a8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9315a52d-8ab3-4f47-9d7b-4431d5f4aaac)
+![28](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e8f64268-bb0a-4949-b13b-9751544c9667)
+![29](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/72400cf2-1bc5-41a8-84f6-a25aede91cc4)
 
 
 
