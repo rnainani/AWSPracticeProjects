@@ -1,6 +1,6 @@
 # Visualizing data using Amazon QuickSight & Amazon S3
 
-![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/03b31d2c-dfcf-4c88-9d7e-c5c8aaba75d8)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/90ba7b19-3c06-40a7-8890-8d188e221c70)
 
 
 ### Steps followed :
