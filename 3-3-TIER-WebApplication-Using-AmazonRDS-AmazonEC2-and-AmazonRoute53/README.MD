@@ -113,15 +113,22 @@ Adding contents to the SamplePage.php file:
 Create db instance & connect with ec2 instance :
 
 <img width="399" alt="28" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d08b822f-0ad9-4988-bb0c-d512481e9965">
+
 <img width="394" alt="29" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a41eb6e9-0545-4bbe-9300-9d29ae04a4de">
+
 <img width="330" alt="30" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/24661f99-9c0e-414a-ad88-442e3558f077">
+
 <img width="548" alt="31" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0ea1fb58-71db-4fea-86b7-5a5dc5e9c4cc">
+
 
 Install the MySQL : 
 
 <img width="417" alt="32" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/56c10f7d-e612-407f-9414-5a9b895910d5">
+
 <img width="550" alt="33" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0df17c0a-dbbd-47b8-8a9c-627c58345a79">
+
 <img width="537" alt="34" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0f4681e7-b7f5-4754-9156-ca877d46a17e">
+
 
 ### Setup & Monitor the health check for the endpoint (http://ec2-3-82-153-125.compute-1.amazonaws.com/SamplePage.php) using Route 53 : 
 
