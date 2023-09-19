@@ -1,6 +1,6 @@
 # Build a Serverless application using Amazon API Gateway, Amazon Lambda & Amazon DynamoDB 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/553bf8e6-3165-4d02-aa42-0573e3da91c2)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/eb26abcc-9d52-457a-aea8-e8217e6e0ef6)
 
 Create an API, hosted on API Gateway, with backen on Lambda, & database on DynamoDB. 4 Operations done on microservices :
 
@@ -17,48 +17,48 @@ The method on the DynamoDBManager resource will support DynamoDB operations. The
 
 1) Create Lambda IAM Role. Create the execution role that gives the function permission to access AWS resources.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/028155e8-ad27-4962-a9e7-be113f6d333e)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3e2c07fd-38b9-4bc0-b564-b2b006aef980)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cefe5e90-c187-42f5-b968-a841510990e2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1d3826fe-912d-4266-8eec-4c6062f36260)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7b445e93-9b3e-419c-88d7-325e499086d3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0bde0558-d053-457c-b54e-7c4c770e4558)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ffb4a048-1a66-4c7a-9886-e9ea8fc54ddc)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3fd33e5a-8cdf-434f-a2a4-99e47546dd8f)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0c7889a1-d408-42a2-a49a-7c82aa3530b7)
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0d0fb1ce-43f4-4d6b-a384-af8dc3bd9f8b)
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c0881d5d-8c46-482a-b26c-2a3eeb36db2a)
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d0912dc6-33f2-4873-a4fb-f96b59468c2f)
+![7](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ecfa189a-d5d9-4337-bbc3-e8c1f58e1f1a)
+![8](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e81260cf-2d2e-4dc6-b625-c5ad64b86906)
 
 2) Create Lambda Function & add the code 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d6a2a530-0b64-4c5b-a3d6-119f1fd58bb6)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/bc5d6a97-2f1f-4a43-a46b-d6638c729cf1)
+![9](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ddf90f7b-f277-427d-9cbe-c244e8de97ab)
+![10](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5b786e78-9ae3-4db7-be7a-68be4ade8ad1)
 
 3) Test Lambda Function
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6c3158fd-f531-4b81-8168-a62790c68e0d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/52b06785-2661-417c-a6ab-fba7911f1af1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9283b34f-0bda-4940-a101-a9240600d9f4)
+![11](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7fd22b06-d647-43d5-a75c-f66b1cbb1202)
+![12](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b5cb8620-e564-4e3e-a2be-2167c25bb000)
+![13](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ab9d3810-21af-4d1a-bd90-c7694e7cae45)
 
 4) Create DynamoDB Table
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3e92e3d0-41ed-4650-be21-fb379b7689c1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/78ca05ca-81cf-45e2-8a11-a666e15c8726)
+![14](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/29c89b5b-4c63-4c0c-a3e7-e8b2e1b66cf3)
+![15](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a7c0fae2-11ed-49ce-ae55-3bba4d039378)
 
 5) Create API
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1a020542-0ac4-4017-a765-dc7a5a8389f9)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/deeb2c8b-9009-4efe-a84a-c685ed354e51)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8e10a2e5-dde9-47c6-90bf-5b99968bd729)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f77a805a-c33d-4b4d-8312-50c7a350b9f7)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8c28aaeb-d255-494b-a4e6-8ddd14ba0056)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2b7fc9b6-200d-4246-92f3-bfed579dbb3c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/487a2809-03f6-4997-9158-65df12ef4266)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9964539c-49fc-4240-8dfe-3bed5c6caa19)
+![16](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ddb382a4-2d84-478e-9647-f0fa46aaba36)
+![17](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3cd4d8f4-8a19-425a-8834-3a3ce4c82108)
+![18](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e1f7854c-d5f2-4be7-8501-f53de151e134)
+![19](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3feda34f-b2a2-410d-874c-a477476cbf81)
+![20](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e1757a88-d65b-4160-b249-bebcb755a416)
+![21](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/689a5d27-ecd4-48d7-a0cc-9c0242a4b91b)
+![22](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/abd9ad84-eb05-4a34-ae5e-c35dc307926c)
+![23](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/989e1808-fedc-4014-92d5-abca58999296)
 
 With above step API integration is done.
 
 6) Deploy the API
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6cb4402f-78ad-4284-8552-a5dc299996dc)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/567d6171-2759-4fdd-9f4b-8da7af10bd00)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6a409966-435c-41e2-a37a-fc1802afa8fd)
+![23_1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f618d3ab-0563-4ce2-b00d-8e3c41dde653)
+![24](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0990b0f5-a7f9-4914-b7d6-0cfe77a342b0)
+![25](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a19625ac-778c-48a4-a109-b6746f4110c9)
 
 ### Running our solution - using Postman
 
@@ -76,8 +76,8 @@ The Lambda function supports using the create operation to create an item in you
     }
 }
 ```
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6aa27a16-00f4-425f-9ff9-439165367c3c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0ff80a1c-029e-42d3-b012-e04c6c83f5f6)
+![26](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f3e3739c-2326-4c15-b423-e9110bf9badb)
+![27](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7a4a65ed-802d-45c1-8380-80861ab27625)
 
 To get all the inserted items from the table, we can use the "list" operation of Lambda using the same API. Pass the following JSON to the API, and it will return all the items from the Dynamo table
 
@@ -89,26 +89,30 @@ To get all the inserted items from the table, we can use the "list" operation of
     }
 }
 ```
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dbba6eff-9314-49b3-8358-109c9915330e)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d41ec4cf-687c-4ccd-8aae-ac6a35301fd8)
+![28](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/68d2085d-9f19-44c2-a84b-ef055e6e8a7b)
+![29](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4e9b6c14-25c0-4cc8-a3ea-47e8e9c99c60)
 
 ### Cleanup
 
 1) Dynamo DB
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1eb83fd7-8cd0-42d0-aa7f-1cc646c325b9)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/eeb92673-dd4e-43f5-9db5-e26f687cf506)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/00fbdda2-c998-47a5-a8b4-8f29ffb64c43)
+![30](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/63e8f0d6-e839-4210-a840-95f383d176ff)
+![31](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/64be1824-2a7c-4fcb-9219-454d90646fec)
+<img width="570" alt="32" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c9a0da8e-b7f8-4e17-8767-84fb4b9f8ede">
 
 2) Lambda
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/387a6aeb-fb6f-4ef5-952c-b2dabb6a2821)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/12e864b1-e8bf-42e0-b420-dd37dec2122a)
+<img width="571" alt="33" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/87260401-13e3-4e02-825c-3310786bb636">
+
+<img width="465" alt="34" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f5493ae7-ef98-42ed-8379-bcb4502fcb38">
+
 
 3) API Gateway
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c9359514-80cf-4963-94e5-7e35350c3e74)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/097dec33-ac53-44c4-b8c0-b472392a77bb)
+<img width="568" alt="35" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ae3aaffa-56d2-4ba1-a149-aa00a547ab98">
+
+<img width="351" alt="36" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1a4c4261-ee47-4805-9c61-ecfbec3589a3">
+
 
 
 
