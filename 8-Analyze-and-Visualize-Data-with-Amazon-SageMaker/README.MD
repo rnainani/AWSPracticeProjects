@@ -11,36 +11,36 @@ At the Notebook instances page, click the  HousesPricesDataAnalysisInstance link
 
 On the HousesPricesDataAnalysisInstance instance page, in the top-right click on the Open Jupyter button, which will open a new tab in your browser.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/04d57a8b-03af-4926-b61f-93ceeb9b7fe2)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0d01a0ec-251d-4cb7-ab06-490cba3e5c4e)
 
 After clicking Open Jupyter, you should now be in the Jupyter notebook web interface. 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8bcbbd07-751e-48d1-97f9-76fa5965239a)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6c899fb8-8ccb-4bf0-ad26-822e3bf9a944)
 
 directory named lab_aws_analyze-and-visualize-data-with-amazon-sagemaker, contains the Ames Housing Dataset CSV.
 
 Check the box next to the lab_aws_analyze-and-visualize-data-with-amazon-sagemaker directory, and then click the Rename button. Rename the directory to data, and then click the Rename button.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/04c684f9-b90a-44b6-b118-65c2da698e6d)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/55d34257-3801-4aca-a274-069e2257db65)
 
 Near the top-right, click the New button and from the drop-down click the conda_python3 option.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/902b002f-b382-4d75-9b2c-a095bdf3f495)
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/58f7a89b-1fd3-4754-80ef-ea1d6c48c495)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/926d27ae-bb65-4eb8-ae3e-7edbc2e22724)
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/fe84eeab-35da-4c6f-a291-d4907e78b542)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/da777d01-a22b-4bba-9685-b7fb1cb817f3)
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1a2f8c5c-c33c-4558-b196-20d7af35b335)
 
 # 2) Analyze Data with Amazon SageMaker
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/57192eda-9c31-43f6-8891-f9f1f4bae6cd)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2c8a9e40-2424-4126-8e97-aa8912a8f629)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d107c4c7-6313-4bce-8320-cc6045340fb3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a70b3d0a-35b1-4d3c-8a55-fcd38c0d5f57)
+![7](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dd586852-c780-4938-854a-facebdd1e1dc)
+![8](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5bff7005-75da-4900-af57-ea0348b1efd8)
+![9](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0dfdce17-c5c7-41c9-818d-2f0faaaa833d)
+![10](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/006b3ddf-8e62-4c7a-9011-728a1d4b431f)
 
 # 3) Visualize Data with Amazon SageMaker
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c99e1181-1b44-44f2-a078-3d10524b2bf2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/189391da-ea7a-41a7-baee-8bd327ccd5fc)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/383faba0-0a8a-4caa-b862-294cc9f0577d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2fa70e34-5744-491e-8f38-82af5163e1e1)
+![11](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c487e2bb-2a11-4759-be99-faeaf9813b44)
+![12](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4283e7aa-5f3d-4fe0-8231-c26d899dc324)
+![13](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/435fa3de-054f-4b2d-85c2-b759e2727956)
+![14](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8a82fc71-d48e-4bb4-b8e3-76073a9dc8ca)
