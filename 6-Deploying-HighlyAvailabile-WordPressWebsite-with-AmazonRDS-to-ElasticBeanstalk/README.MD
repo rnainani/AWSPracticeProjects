@@ -10,57 +10,70 @@ Running a DB instance external to Elastic Beanstalk decouples the database from 
 
 1) Launch a DB instance in Amazon RDS (MySQL, Multi-AZ deployment) completely independent of Elastic Beanstalk and Elastic Beanstalk environments, and will not be terminated or monitored by Elastic Beanstalk.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a6ee4c0e-c7f6-49af-8f11-9d7e9fd569e2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b3299e9e-69b4-4359-aff0-555eeb0d71fb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2f64267e-1a04-4bba-b549-abe05c62fd2d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c153772a-d142-41b3-bbfb-c34989db403c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/176d1c7e-cce9-4530-9e52-053c28be15a1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42bfa3e9-803d-4b31-9ec2-d6fe920dcaa2)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f32726db-2ea4-42af-b425-cbaa82310844)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/917212fb-e775-4eea-b55b-c72af14e1331)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c2c490c6-d1d0-4aca-9365-86648d6682ee)
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1eb57402-8b9b-4e15-a361-6e91383b7ac2)
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d8a75f4d-7774-4f69-a661-a9c4fc75788f)
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a6332118-da03-470c-b158-b92624ea8bdd)
 
 After your DB instance is created, modify the security group attached to it in order to allow inbound traffic on the appropriate port..
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2d63b1bd-6f31-4f15-9261-3d404013620b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15b36831-f7d5-4616-ac62-ea6a94e3ba4a)
+<img width="823" alt="7" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/433dce99-598c-4fac-a91b-f70cf4a8643b">
+
+<img width="808" alt="8" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/67da4904-ac82-4b31-b96e-831f5920811d">
 
 ### Download WordPress
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1cae6df1-9d71-4086-9114-76d57709268b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/de0f8bfb-ed34-40ee-a5d0-207ee408facf)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f9b184ef-27fd-4430-8285-9a61befd8dc2)
+<img width="823" alt="9" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f903ef53-bd76-40dc-b765-9b0256f95c9f">
+
+<img width="819" alt="10" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d4eff8cd-5654-40bd-9001-3c693dfe8bef">
+
+<img width="820" alt="11" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3023e234-6dba-4c43-8e9c-10e70f81f3a8">
 
 ### Launch an Elastic Beanstalk environment
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b315baf1-a8ba-4365-8d72-bb7fa8be2891)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7fb226ca-ac99-4977-9494-4964e9be987d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/df0c3532-739f-4a60-9948-c7714733a40c)
+<img width="824" alt="12" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e03399e3-3f4c-488b-91f6-99a0fbaba999">
+
+<img width="811" alt="13" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f94373ce-c103-473e-8532-577955061d88">
+
+<img width="820" alt="14" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7214e1e7-26bb-4da8-abc6-89e7149349cc">
 
 (Make sure to provide admin access or required access, before submitting for app creation.)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4f6519a5-1f48-4133-a292-38c81d01eac1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e6019e8d-fb17-4c4d-84da-66212766c4a5)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/64e6f00b-52ef-42a2-9d3f-421adf90c0b8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/85af9c28-77b4-40f9-9f5d-fee39de68b42)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dfb4615c-38a3-4737-aee3-58ac0a7f3ae3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5c9c8f1e-e010-493e-b9af-10c911f077e2)
+<img width="821" alt="15" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/313a7f86-c7b5-44d6-b6e3-f4d2b89cdcc3">
+
+<img width="822" alt="16" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2da00be4-78e2-4bc1-aab9-4117bf60e24d">
+
+<img width="821" alt="17" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/60fddb05-c097-4b54-9e19-3f057899812b">
+
+<img width="820" alt="18" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15def81f-eb8d-4f58-b875-864a3c51e85d">
+
+<img width="820" alt="19" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c8233787-f051-40d1-b5fd-7e4e76568b00">
+
+<img width="822" alt="20" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2beae7aa-4220-4911-b0fe-0388f74c5974">
 
 ### Configure security groups and environment properties
 
 Add the security group of your DB instance to your running environment. This procedure causes Elastic Beanstalk to reprovision all instances in your environment with the additional security group attached.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/de4948b0-9a98-43c7-ade4-854a987835fb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/415496aa-103d-47d9-a953-badbf92177f8)
+<img width="337" alt="21" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ec17e1c5-088f-44c5-8aa1-0ecf18266000">
+
+<img width="333" alt="22" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77b49592-2a4b-411f-9308-daa02fe30c7e">
 
 ### To configure environment properties for an Amazon RDS DB instance
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ca1c8bc3-329a-4322-a688-43ca63fa9455)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/01497814-b30c-4b1d-93f4-d7b124e01e58)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4719509a-49c2-40e2-9ea9-51352b0a5aaf)
+<img width="332" alt="23" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2cc6fd22-93eb-4a87-8a4d-0cf4b6c576e8">
+
+<img width="336" alt="24" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/18ce1800-07c0-43c1-aff9-0e1c9dec427b">
+
+<img width="327" alt="25" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9af7214b-9eca-47b6-b4ca-0dfdf6e95902">
 
 ### Configure and deploy your application
 
 Verify that the structure of your wordpress-beanstalk folder is correct, as shown.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/81af51bc-f429-48c8-9f44-ddf6d2074684)
+<img width="760" alt="26" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b2641870-499b-430a-a4f6-22220545fe6f">
 
 ### To update configuration files and create a source bundle
 
@@ -68,25 +81,27 @@ Modify the configuration files as follows.
 
 .ebextensions/dev.config – Restricts access to your environment to protect it during the WordPress installation process. Replace the placeholder IP address near the top of the file with the public IP address of the computer you'll use to access your environment's website to complete your WordPress installation.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4c1a093c-dd50-4250-97fb-cb900a9d3a8c)
+<img width="761" alt="27" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e41769e3-d152-4f7f-8fcf-59ee6a83eea7">
 
 .ebextensions/efs-create.config – Creates an EFS file system and mount points in each Availability Zone/subnet in your VPC. Identify your default VPC and subnet IDs in the Amazon VPC console.
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/60662d4d-f8f9-4b5b-af6d-8f8fbbf4ec29)
+<img width="756" alt="28" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0c3d57bb-0325-457c-ae55-1cfebb28efd4">
 
 Create a source bundle containing the files in your project folder. The following command creates a source bundle named wordpress-beanstalk.zip.
 
 ~/eb-wordpress$ zip ../wordpress-beanstalk.zip -r * .[^.]*
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/98bdd3fb-e396-412a-a41c-65800cb81489)
+<img width="732" alt="29" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/54739f12-0570-4523-9402-e9ea89e21040">
 
 Upload the source bundle to Elastic Beanstalk to deploy WordPress to your environment.
 
 ### To deploy a source bundle
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3b0ffbf8-db50-459d-ac4e-912ebf27c878)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/56659797-94e2-4913-91f6-959721aa9304)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a6220a30-2728-4f6e-bf0b-15181ecc118e)
+<img width="754" alt="30" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ac573ab9-2dce-482b-8b52-ca69a6573b2a">
+
+<img width="757" alt="31" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/326a05f4-8647-4af0-8276-41c8cd2641c5">
+
+<img width="754" alt="32" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6b3a819d-d01a-466a-a139-9f8b080bb9be">
 
 Install WordPress
 To complete your WordPress installation
