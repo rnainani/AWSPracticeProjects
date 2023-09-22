@@ -2,107 +2,134 @@
 
 ## Agenda - To download the security updates / patches in th DB Server in private subnet using NAT gateway
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3efeceff-d603-4b55-b14a-011deb4c722f)
+<img width="608" alt="1" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ef6f8824-a81b-47c1-b296-2fa7aa76daf0">
 
 
 ### Steps followed 
 
 ### 1) Create VPC 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ab00ca25-8924-4c05-ba78-945ffdd02c05)
+<img width="463" alt="2" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2199ea02-20b9-43eb-b616-0aeaeb6134ef">
 
 VPC created with main Route table & main NACL :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/978722ec-2f3e-4548-8208-035d0680817c)
+<img width="760" alt="3" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/25a492f2-0f5b-4c53-bcb2-845dcf8986a8">
 
 New Security group is also created : 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a9276b96-cc94-4512-a5c7-b4292c6e1484)
+<img width="759" alt="4" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2be9bd6e-73ab-4173-8fe9-962b80f7c39e">
 
 ### 2) Create Subnets
 
 Public Subnet :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/63a3ecd8-b837-403b-94ea-58d6dfc2b465)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c765bc43-ff4c-445b-be8c-22888f2e965a)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/02925ea0-4556-4f98-875b-14c557eae688)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e1219a1c-6ab5-42ea-b39c-0071b44c49c1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cb6e94ed-aa20-4ab4-9cc3-7744074afc6b)
+<img width="423" alt="5" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a0eb4ddd-3a19-4ee9-9820-089c6a0e8492">
+
+<img width="758" alt="6" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e50b6ca6-86e5-405c-84cb-4bf23f553c42">
+
+<img width="632" alt="7" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7e92bfc6-7462-48e6-8d33-3b026dbd0767">
+
+<img width="647" alt="8" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/de6c4908-d754-41cf-a46f-06c8d68e7f07">
+
+<img width="647" alt="9" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8c5b9067-a80f-49b6-8f39-5d1eaccf6634">
 
 
 Private Subnet :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/77feb274-7d62-432b-8392-1abe0dd6e14a)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/71ca4bd7-590c-4f62-ae5b-1af29d23d3fb)
+<img width="437" alt="10" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a7e927c7-8b4a-45b1-8ef5-b94aca4f3a98">
+
+<img width="764" alt="11" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9ce17369-be1e-4052-8aa3-9adae233cf95">
 
 ### 3) Create Internet Gateway
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dd845350-004e-4e79-8baa-606a774cd6a2)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/e95fd995-f830-4125-b70b-d7b01ec9c489)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c6f8cf3c-2ff6-4269-af41-699dbb445c27)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/aa916954-8661-4958-a6b3-b2830b76ee61)
+<img width="478" alt="12" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/90ce4ce9-6551-4314-be34-fef3fedf2457">
+
+<img width="759" alt="13" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/89600004-0c15-4891-88a5-1997b5d23149">
+
+<img width="644" alt="14" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ed3ee560-d44c-44db-aeec-2279adfeed4a">
+
+<img width="760" alt="15" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/838d66bf-7bde-47b3-b2cc-94f650aceb58">
 
 ### 4) Create a Route Table
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/229492b1-1297-4871-8b35-8042b083617b)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cb6091db-c2c7-4aa0-84a1-cf02428daab7)
+<img width="572" alt="16" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/228c5e98-a9b1-4e20-89fb-57ff210c6255">
+
+<img width="759" alt="17" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0a30b51f-7168-4377-9ab3-190d862aa93d">
 
 Create a route out to the internet : 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0c9b3e57-2f8e-43ab-8138-539f436ae0e1)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4e0aca91-0f2a-4b7b-8cbd-649cf18b627f)
+<img width="768" alt="18" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7ab271d3-715a-4fd8-82e5-dd16f82e3fc4">
+
+<img width="764" alt="19" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/67ba50ec-4bb3-4dfb-807c-83d1f613e8bf">
 
 Associate public subnet :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a9209250-65a6-4aec-aef4-1a62f32346c3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/93c8e98a-f9dd-428a-931b-4d83cc35603a)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/63ad9645-20bb-4060-9958-95b9dee33796)
+<img width="761" alt="20" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c2fd4e93-27ab-42b5-ab5a-a552961111d4">
+
+<img width="760" alt="21" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5c49a1b6-5d29-4a60-a6c8-618c29445f76">
+
+<img width="570" alt="22" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/361c1f84-a2c9-4176-bdd1-2353801fadeb">
 
 ### 5) Create EC2 instance in both the subnets
 
 Public Instance & Security Group : 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/094ba2d8-f948-473e-aaf4-5727484c8572)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6eeafebd-701d-4185-a0b1-ca873475831c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f6ae83ca-9567-4361-be4d-6b5b09028349)
+<img width="472" alt="23" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f5529074-10de-4a2a-b748-b085770ddd2d">
+
+<img width="366" alt="24" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5a860897-6eab-4e20-bcb6-646061f5d41a">
+
+<img width="748" alt="25" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f50d2367-7860-4435-985c-a5fcff6dd5a1">
 
 Private Instance & Security Group :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6a4fb4d5-f1b2-46d4-9aeb-2a6232ff3169)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4df30b1f-ee03-49c0-af47-7b6046a59465)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/fec0126e-7b26-4035-9a7c-d0d2936c3e7f)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/538ce60f-aa9b-4424-bf2b-b31cb10b2943)
+<img width="365" alt="26" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/22902d65-1cc8-476c-90e7-5bb190b5a91b">
+
+<img width="375" alt="27" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a8683ce4-4d4f-4273-a0a6-507730af36f3">
+
+<img width="378" alt="28" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/889df212-ce8c-4f8a-a85b-01cb963e4ae0">
+
+<img width="760" alt="29" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/fd5de388-6ff1-49c0-9b4e-22e66f0e6195">
 
 ### 6) Create NAT Gateway
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2294736c-d4e4-4d86-83da-969d24d9a769)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/fb5354e8-0156-4748-a9f3-36176bfa017c)
+<img width="423" alt="30" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c0e9d09a-b569-4f01-a60f-7576cd0b6eab">
+
+<img width="759" alt="31" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f0e3c2bc-cb7c-475f-a87e-4b971d6686b9">
 
 ### 7) Create a route out to internet in the Main route table
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a05c9c11-d625-4642-80dd-4715f0db528e)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d867817f-79c3-45d4-ae01-f4e8df52b41c)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f48c5b4b-113a-4509-b1cf-57b9c074a995)
+<img width="759" alt="32" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b6a616c3-8ba4-4d3f-b043-d9176d87fbfa">
+
+<img width="358" alt="33" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1bc35b39-34cf-4f0f-936f-7732100691b2">
+
+<img width="755" alt="34" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/136e335d-6189-4c8b-a242-3331d3d57bf3">
 
 ### 8) SSH to DB Server from the Web Server & access the internet to download updates 
 
 Connect the Web Server using the cludshell:
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/01215321-4c3f-42e4-a644-1c9af7a9581d)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6e4a970e-9498-4fa6-898b-fa54ff673d26)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a4092a7d-cbfd-4832-96f3-486a4a4ac70e)
+<img width="761" alt="35" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d54e22b1-ff9c-4494-82d5-3e0e64e711d6">
+
+<img width="438" alt="36" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dd64998e-86b1-49f3-9bb1-1fc88d0a30a5">
+
+<img width="454" alt="37" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4ae89dc1-197b-4657-b577-92f359364b02">
 
 Grab the private IP of the DB Server & ping from the Web server : 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/70d6cf8b-f0cc-4626-a1f6-7e21687a209f)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2e72db52-f172-4895-b396-021bb1b3fc23)
+<img width="760" alt="38" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/46b59030-c336-42d9-917a-9c3c5d7f8279">
+
+<img width="559" alt="39" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/53b086be-6046-4392-b2cf-97e6ea3659db">
 
 create a key & use it to SSH to the DB Server :
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dc0f6790-7cbd-4781-a888-e710c43456f8)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f5bc8f24-805d-41b2-bebf-df0d099bd49f)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0cf84724-5f9a-4246-a39b-15aba5e563ba)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b8aeadae-d46a-4869-a897-23a68d2b86fb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cfb29f44-20d3-4e34-aaa8-ec224705b3fd)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c06ee1b9-d2b6-42be-8612-18468dd5f3d3)
+<img width="306" alt="40" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/617c078a-243a-4c6c-ab09-facd5941dc29">
 
+<img width="458" alt="41" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/ce14ecc9-958d-4c55-a25d-c586d6173d4a">
+
+<img width="315" alt="42" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/55938727-4177-442b-9cb3-6b523717c901">
+
+<img width="560" alt="43" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c66f44bd-0df3-43f9-8558-cfb50b9d2998">
+
+<img width="479" alt="44" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d3191371-be83-425c-a607-caf61cc737b7">
+
+<img width="538" alt="45" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6d0d86e7-83ee-441c-8012-6e9bdb971de0">
