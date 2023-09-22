@@ -291,34 +291,52 @@ Save the document. Now we've a JSON document containing a CloudFormation templat
 
 ### 2) Open CloudFormation & create a new stack using the file created in last step 
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/006e6be2-c39d-423c-885e-93091c056c57)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/01d78cf3-548e-4992-8584-b1b30c814dcb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/0f72d3f3-1d11-4577-9703-28f4968c5374)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6035dd41-2d8c-4fb3-991c-863c1eaebd24)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/98e45e0d-64bf-44ac-be49-87fb446e79cd)
+![1](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/053fbcea-e879-4cba-a5ec-b97a61f5d03f)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/6651518c-f23c-4dce-8ca2-40f816c921ca)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/1432a87f-af74-4603-8bb0-ca1564706adf)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/8f519bbc-9f3b-4aaa-8686-5641bb5069a3)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/060b49b3-8d96-49a4-a936-643570495b38)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b50ac805-62af-467a-ab4c-ce3679627bfb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4402738f-21ad-45cf-90e0-da5fc47ffd4c)
+![2](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2e859409-79b3-48ad-8144-7f3111b3f795)
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5f864186-2457-414f-b7e2-a094556fac19)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/42115f96-0161-4cce-b6ec-653a330a7ac2)
+![3](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/b9c8e980-26e4-42b1-92ed-b5404f49dd93)
+
+![4](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7bd28565-61f9-441c-8948-a224c4c196f0)
+
+![5](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/262fddc7-4c6c-41ae-a4c5-5b4b6b23ff08)
+
+![6](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4e5f2dbc-c35a-4780-b2c4-b93c853b4bde)
+
+![7](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/44899658-d0fd-4ba6-8df0-cfc53c156cad)
+
+![8](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/91ce7550-4779-40a3-ab01-d9c2a20a734e)
+
+<img width="599" alt="9" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/2fbd123e-0433-4a5f-9951-14b767704d77">
+
+<img width="598" alt="10" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/12e23d34-5603-44b1-9488-a1c7c3d49a28">
+
+<img width="593" alt="11" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/121fe38f-874c-4dc4-8367-a746f0c2f007">
+
+<img width="595" alt="12" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/d8e776cc-b07e-43ad-9d5f-3a052e5794bf">
+
+<img width="595" alt="13" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/835b2d89-8b3e-4280-84b5-0188c0a4cd55">
 
 ### 3) Install Wordpress
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/3c45f5d5-c399-4421-a1d5-10f2f707b881)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/15959b9d-6c77-4f85-97a0-6f5cc1bd0ba7)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/94e4f4fa-87ae-4203-84cd-ed592ac09ecb)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7a79f108-818e-4428-81e4-748d5b096fc0)
+<img width="602" alt="14" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/7cf5d867-e20d-4ce2-9e6e-e6547170b004">
+
+<img width="608" alt="15" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4117a212-5b3d-4871-99c8-5ffad58250b7">
+
+<img width="608" alt="16" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/178f69b2-790d-4afb-a381-76aecaceabd7">
+
+<img width="604" alt="17" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/c21a6239-8c28-4536-a954-5d01e0aedc0c">
 
 ### 4) Delete the CloudFormation Stack
 
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/cedc64e5-7e05-4820-bb0d-0100a6f7275e)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/11ebefc2-4b32-459e-bf98-aa6b6f1cfdf4)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/aa70a8d7-cb33-4727-82b4-15a0d3c6bf93)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/a2d79b23-cc5c-4894-800b-88726702ef68)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/dadaa9ed-e108-46d6-aa39-b600ff695972)
-![image](https://github.com/rnainani/AWSPracticeProjects/assets/25031921/45d3122a-dd6c-4b5b-9940-10f69aaff3f3)
+<img width="611" alt="18" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/850461c7-70d3-40c7-bbe8-5a75aa449ffb">
+
+<img width="603" alt="19" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/be6dae07-7a22-4005-bbe2-142cfac813ee">
+
+<img width="610" alt="20" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/4abd4c94-6cfc-40f6-96b2-ef2cf4e2f22d">
+
+<img width="601" alt="21" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/5ea31d07-0f2c-4a06-b067-dee2a18ab461">
+
+<img width="619" alt="22" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/9b39e25c-e9c7-45e7-97cc-d1971b9f12f2">
+
+<img width="613" alt="23" src="https://github.com/rnainani/AWSPracticeProjects/assets/25031921/f16def2c-fae3-4f1c-91de-35bb2ba223f4">
